@@ -31,13 +31,13 @@ header h1 {}
 header img {}
 
 header .subheading {}
-
-nav {
+.hamburger { display: block;position: absolute;top: 2.0rem;right: 1.25rem; }
+nav ul {
     background-color: dimgrey;
     font-family: 'Alegreya', serif;
 
 }
-.hamburger { display: block;position: absolute;top: 2.0rem;right: 1.25rem; }
+
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -53,24 +53,23 @@ nav ul{
 
 
 }
-nav ul.hide {
-    display: none
-}
+
 
 nav ul li { display: none;}
 
 nav ul li a {
-    display: block;
-    padding: .8rem 2%;
+    display: inline-block;
+    padding: .5rem 1%;
+    padding-left: 1rem;
     text-decoration: none;
     color: #000;
     border-top: 1px solid rgba(0,0,0.3)
 
 }
 
-nav ul li.active a {background-color: rgba(0,0,0,0.2); color: #fff}
+nav ul li.active a {background-color: rgba(0,0,0,0.1); color: #fff}
 
-nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
+nav ul li a:hover {background-color: rgba(0,0,0,0.3);}
 
 main {}
 

@@ -1,23 +1,27 @@
 @media only screen and (min-width: 600px) {
-
-
-    nav button {
+    body {
+        font-size: 1.3em;
+    }
+    .hamburger {
         display: none;
     }
 
-    nav li {
+
+
+    nav ul li {
         display: inline;
+        text-align: center;
     }
-}
-
-.forecast {
-    display: block;
-    margin: 0;
-
-}
-th{
-    padding: .3em;
-}
-.articleimg{
-    width: 20em;
+    .forecast {
+        display: block;
+        margin: 0;
+        background-color:;
+        text-align: center;
+    }
+    th {
+        padding: .3em;
+    }
+    .articleimg {
+        width: 20em;
+    }
 }
