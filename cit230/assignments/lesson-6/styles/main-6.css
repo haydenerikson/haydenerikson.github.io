@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    font-family: 'Alegreya', serif;
+    background-color: #B2A59F;
+}
+.forecast  {
+    display: none;
+}
+header,
+nav,
+main,
+footer {
+    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    max-width: 100% ;
+    /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+    border-style: solid;
+}
+
+header {}
+
+header h1 {}
+
+header img {}
+
+header .subheading {}
+
+nav {
+    background-color: dimgrey;
+    font-family: 'Alegreya', serif;
+
+}
+.hamburger { display: block;position: absolute;top: 2.0rem;right: 1.25rem; }
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #002C2F;
+
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+nav ul.hide {
+    display: none
+}
+
+nav ul li { display: none;}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0,0,0.3)
+
+}
+
+nav ul li.active a {background-color: rgba(0,0,0,0.2); color: #fff}
+
+nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
+
+main {}
+
+main h2 {border-style: dashe;}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main figure img {}
+
+footer {}
+picture img {width: 100px;
+    height: auto;
+    float:right;}
+article img {width: 100px;
+    height: auto;
+    float:right;}

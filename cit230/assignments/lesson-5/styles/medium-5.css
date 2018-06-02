@@ -1,0 +1,15 @@
+@media only screen and (min-width: 600px) {
+
+
+    nav button {
+        display: none;
+    }
+
+    nav li {
+        display: inline;
+    }
+}
+
+section.forecast {
+    display: block;
+}

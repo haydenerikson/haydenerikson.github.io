@@ -1,0 +1,23 @@
+@media only screen and (min-width: 600px) {
+
+
+    nav button {
+        display: none;
+    }
+
+    nav li {
+        display: inline;
+    }
+}
+
+.forecast {
+    display: block;
+    margin: 0;
+
+}
+th{
+    padding: .3em;
+}
+.articleimg{
+    width: 20em;
+}
