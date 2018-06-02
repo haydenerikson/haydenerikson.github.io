@@ -15,7 +15,7 @@
 <body>
 
     <header>
-        <h1>binge watch weather site</h1>
+        <h1>Binge watch weather</h1>
         <h3 class="subheading">Binging in the rain</h3>
     </header>
 
@@ -45,7 +45,7 @@
                 Sunny
                 <picture>
 
-                    <img src="/cit230/assignments/lesson-6/images/small.jpg" sizes="50vw" srcset=" medium.jpg 1000w, normal.jpg 2000w" alt="sunshine">
+                    <img srcset="/cit230/assignments/lesson-6/images/normal.jpg 2000w, /cit230/assignments/lesson-6/images/ medium.jpg 1000w, /cit230/assignments/lesson-6/images/small.jpg 2000w" alt="sunshine">
                 </picture>
             </div>
             <div class="conditions">
@@ -103,7 +103,11 @@
         </section>
         <section class="footer-bar">&copy;2018 | All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span>
         </section>
-        var dayOfWeekNumber = currentDate.getDay(); var dayOfWeekString = daysOfWeek[dayOfWeekNumber]
+        <script>
+                var d = new Date();
+            document.getElementById("demo").innerHTML = d.toDateString();
+            var dayOfWeekNumber = currentDate.getDay(); var dayOfWeekString = daysOfWeek[dayOfWeekNumber]
+        </script>
     </footer>
 
 </body>
