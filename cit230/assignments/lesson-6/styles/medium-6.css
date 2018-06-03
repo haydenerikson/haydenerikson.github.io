@@ -7,7 +7,7 @@
     }
 
 
-
+    nav ul.hide{display: block;}
     nav ul li {
         display: inline;
         text-align: center;
