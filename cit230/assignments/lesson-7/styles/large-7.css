@@ -1,0 +1,43 @@
+@media only screen and (min-width: 64em ) {
+
+    main {
+        margin-top: 10%;
+    }
+
+    .navigation {
+        margin: 15px 50px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .navigation > li {
+        display: contents;
+        text-align: center;
+        flex-basis: 100%;
+        flex: 1;
+        font-size: 1.4rem;
+    }
+
+    main h2 {
+        font-size: 1.7em;
+        margin-top: -5%;
+    }
+
+
+    header img {
+        display:none;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .galleria {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+}

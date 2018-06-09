@@ -1,4 +1,3 @@
-function toggleMenu() {
-    console.log("IT Worked")
-    document.getElementById("navigation")[0].classlist.toggle("hide");
+function toggleHam() {
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }

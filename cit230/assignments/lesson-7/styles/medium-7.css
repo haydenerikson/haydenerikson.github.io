@@ -1,0 +1,41 @@
+@media only screen and (min-width:37.5em) {
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navigation > li {
+        display: contents;
+        text-align: center;
+        flex-basis: 100%;
+        flex: 1;
+        font-size: 1.4rem;
+    }
+
+    section.forecast {
+        display: block;
+    }
+
+    body,
+    p {
+        font-size: 1.9em;
+    }
+
+    header img {
+        width: 30%;
+    }
+
+
+    .galleria {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+
+}

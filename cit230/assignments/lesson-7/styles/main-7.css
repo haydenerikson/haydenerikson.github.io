@@ -1,0 +1,182 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+.hamburger {
+    display: block;
+    width: 55%;
+    margin: 10% auto;
+    padding: 15%;
+}
+
+.navigation {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation li {
+    display: none;
+}
+
+
+.navigation.responsive {
+    position: relative;
+}
+
+.navigation.responsive li {
+    background-color: #eee;
+    display: block;
+    width: 100%;
+    margin: 2px 0;
+    border: 1px solid #ddd;
+}
+
+.navigation.responsive li a {
+    padding: 1rem;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+.navigation.responsive li a:hover {
+    background-color: #ddd;
+}
+
+
+
+body,
+p {
+    font-size: 1.8em;
+    font-family: 'Alegreya', serif;
+    background-color: #B2A59F;
+}
+
+header,
+main,
+footer {
+    font-family: 'Alegreya', sans-serif;
+    max-width: 100%;
+    background-color: #B2A59F;
+}
+
+section.forecast {
+    display: none;
+}
+
+
+header {
+    margin: auto;
+}
+
+header h1 {
+    font-size: 2em;
+    padding: .05em;
+    text-align: center;
+}
+
+header h3 {
+    font-size: 2em;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    border: none;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header .subheading {
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+    text-align: center;
+    padding: .05em;
+}
+
+nav {
+    font-family: 'Alegreya', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: .05em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #002C2F;
+    background-color: #e7e6e7;
+}
+
+nav ul li.active a {
+    background-color: #002C2F;
+
+}
+
+nav ul li a:hover {
+    color: #002C2F;
+}
+
+main {
+    width: 100%;
+    border: none;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    padding-left: .8em;
+    padding-right: .8em;
+}
+
+main h2 {
+    font-size: 1.7em;
+}
+
+main h3 {
+    font-size: 1.4em;
+}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+img {
+    width: 125%;
+    height: auto;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 15px;
+}
+
+.item {
+    padding: 10px 10px;
+    width: 100%;
+}
+
+figure:hover {
+    opacity: 0.5;
+}
+
+
+footer {
+    text-align: center;
+}
