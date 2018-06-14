@@ -3,6 +3,7 @@ table{
     border-collapse: collapse;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
+    box-shadow: 7px 7px 7px #628ca6;
 }
 
 tr, td, th{
