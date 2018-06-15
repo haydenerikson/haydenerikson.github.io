@@ -6,46 +6,9 @@
 
 /* This wildcard applies to all elements ensuring a box layout model */
 
-.hamburger {
-    display: block;
-    width: 55%;
-    margin: 10% auto;
-    padding: 15%;
+
+
 }
-
-.navigation {
-    list-style: none;
-    padding-left: 0;
-}
-
-.navigation li {
-    display: none;
-}
-
-
-.navigation.responsive {
-    position: relative;
-}
-
-.navigation.responsive li {
-    background-color: #eee;
-    display: block;
-    width: 100%;
-    margin: 2px 0;
-    border: 1px solid #ddd;
-}
-
-.navigation.responsive li a {
-    padding: 1rem;
-    text-align: center;
-    display: block;
-    text-decoration: none;
-}
-
-.navigation.responsive li a:hover {
-    background-color: #ddd;
-}
-
 
 
 body,
@@ -63,9 +26,6 @@ footer {
     background-color: #B2A59F;
 }
 
-section.forecast {
-    display: none;
-}
 
 
 header {
@@ -97,26 +57,32 @@ header .subheading {
     font-family: 'Alegreya', serif;
     font-style: italic;
     text-align: center;
-    padding: .05em;
 }
 
 nav {
     font-family: 'Alegreya', sans-serif;
     font-size: 1.5em;
     letter-spacing: .05em;
+    background-color: #B2A59F;
 }
+nav button{
 
+        background-color: transparent;
+        border: none;
+        text-decoration: none;
+}
 nav ul {
-    list-style-type: none;
+
     margin: 0;
 }
-
-nav ul li {
+nav ul.hide {
     display: none;
+}
+nav ul li {
+    display: flex;
 }
 
 nav ul li a {
-    display: block;
     padding: 8px;
     text-decoration: none;
     color: #002C2F;
@@ -132,6 +98,7 @@ nav ul li a:hover {
     color: #002C2F;
 }
 
+
 main {
     width: 100%;
     border: none;
@@ -140,6 +107,10 @@ main {
     margin-top: 20px;
     padding-left: .8em;
     padding-right: .8em;
+    background-color: #B2A59F;
+}
+.forecast {
+    display: none;
 }
 
 main h2 {

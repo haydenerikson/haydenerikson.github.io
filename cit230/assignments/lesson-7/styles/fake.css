@@ -1,0 +1,165 @@
+margin: auto;
+box-sizing: border-box;
+max-width: 95%;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 15px;
+    font-family: monospace/* Declare the base font-family */
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    max-width: 99%;
+    /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+header h1 {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 70px;
+    margin-bottom: 0;
+
+}
+
+.subheading {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 20%;
+}
+header img {
+    margin: 2% 3% 0 7%;
+    width: 50px;
+    height: 60px;
+
+}
+
+nav {
+    background-color: #00BFFF;
+}
+
+nav button {}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul.hide{
+    display: none;
+}
+
+nav ul li{
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: floralwhite;
+    font-stretch: extra-expanded;
+}
+
+nav ul li.active a {}
+
+nav ul li a {}
+
+main {
+    margin: auto;
+    width: 95%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main h2 {}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main figure img {
+    width: 100%;
+}
+
+.weather-summary {
+    max-width: 650px;
+}
+
+.highlow {
+    text-align: right;
+    margin: 0 12% -5% 0;
+}
+
+main section {
+    background-color: lightskyblue;
+}
+
+main .current {
+    margin: 0 0 0 10%;
+    text-align: left
+}
+
+main .current img {
+    width: 20%;
+}
+
+.conditions {
+    text-align: right;
+    margin: -5% 12% 5% 0;
+}
+
+.forecast {
+    background-color: white;
+    display: none;
+}
+
+main article {
+    display: flex;
+    flex-flow: column;
+    margin: 0 0 10% 0;
+}
+
+main article img {
+    width: 30%;
+}
+
+
+main article h3 {
+    margin: 10% 0 5% 0;
+    text-align: center;
+}
+
+main article p {
+    text-align: left;
+}
+
+footer {
+    background-color: #00BFFF;
+    color: floralwhite;
+    font-size: 12px
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+}
+
+.gallary{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr;
+}
+.gallary img:hover {
+    box-shadow: 5px 5px 10px gray;
+}
