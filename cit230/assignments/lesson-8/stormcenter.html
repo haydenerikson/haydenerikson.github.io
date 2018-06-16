@@ -35,8 +35,8 @@
 
 
     <form method="get" action="thanks.html">
-        <legend>Report the weather!!!
-        </legend>
+        <p> Report the weather!!!
+        </p>
 
 
         <div> <label class="info">First Name:<input type="text" name="fName" pattern="[A-Za-z ]{3,}" title="fname" required></label>
@@ -72,31 +72,33 @@
             <label for="rating" class="info">Storm Severity: <span id="ratingvalue">5</span><input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         </label>
         </div>
-        <label class="info">Storm Region
+        <div>
+            <label class="info">Storm Region
                             <select name="stormLocation">
                                 <option value="">Select Region ...</option>
                                 <option value="region">Franklin</option>
                                 <option value="region">Greenville</option>
                                 <option value="region">Springfield</option>
                             </select>
-
+            </label>
+                            </div>
 
                             <div>
-                                <label>Are conditions dangerous?<br><br>
+                                <label>Are conditions dangerous?<br>
                                     <input type="radio" name="inDanger" value="yes" class="radio"> Yes</label>
+            </div>
 
-
-        <span>
+            <span>
 
             </span>
 
-        <span>
+            <span>
             <label>
                                     <input type="radio" name="inDanger" value="no" class="radio"> No</label>
             </span>
-        <label>
+            <label>
                                     <input type="radio" name="inDanger" value="maybe" class="radio"> Maybe</label>
-        </div>
+
 
 
         <p> Additional Information</p>
