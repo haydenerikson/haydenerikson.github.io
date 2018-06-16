@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+
+}
+
+
+.navigation {
+    font-family: 'Alegreya', sans-serif;
+    font-size: .8em;
+    background-color: #B2A59F;
+    display: flex;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation.responsive {
+    position: relative;
+}
+
+.navigation.responsive li {
+    background-color: #2196f3;
+    /*add color*/
+    display: block;
+    width: 100%;
+    margin: 2px 0;
+}
+
+.navigation.responsive li a {
+    padding: 1rem;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+.navigation.responsive li a:hover {
+    background-color: #d9d9d9;
+}
+
+
+
+.item {
+    border: 1px solid #2196f3;;
+    padding: 10px 20px;
+    width: 100%;
+}
+figure:hover {
+    /*    opacity: 0.6;*/
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.3) inset;
+}
+
+.forecast {
+    display: none;
+}
+
+/* -----------------------------------------------------*/
+
+body {
+    font-size: 1.8em;
+    font-family: 'Alegreya', serif;
+    background-color: #B2A59F;
+}
+
+header {
+    margin: auto;
+}
+
+header h1 {
+    font-size: 2em;
+    padding: .05em;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 1em;
+    text-align: center
+}
+header h3 {
+    font-size: 1em;
+}
+header img {
+    width: 200px;
+    height: auto;
+    border: none;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header .subheading {}
+
+nav {}
+
+nav button {}
+
+nav ul li a {
+    padding: 8px;
+    text-decoration: none;
+    color: #002C2F;
+    background-color: #e7e6e7;
+}
+
+nav ul li a:link {
+    text-decoration: none;
+}
+
+nav ul li a.visited {
+
+}
+
+nav ul li a:hover {
+    color: #002C2F;
+}
+
+
+main {
+    width: 100%;
+    border: none;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    padding-left: .8em;
+    padding-right: .8em;
+    background-color: #B2A59F;
+}
+
+main h2 {}
+
+
+
+main figure img {}
+
+main article h3 {}
+
+main article.peek {}
+
+
+
+
+
+
+
+footer {
+    font-size: .5em;
+}
+
+
+.info {
+    padding-right: 5px;
+}

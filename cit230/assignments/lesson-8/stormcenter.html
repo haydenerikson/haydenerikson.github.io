@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dank Weather-Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery page">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main-8.css">
+    <link rel="stylesheet" href="styles/medium-8.css">
+    <link rel="stylesheet" href="styles/large-8.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Binge Watch Weather</h1>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="/cit230/assignments/lesson-7/franklin-7.html">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li><a href="/cit230/assignments/lesson-8/stormcenter.html">Storm Center</a></li>
+            <li><a href="/cit230/assignments/lesson-7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+
+    <form method="get" action="thanks.html">
+        <legend>Report the weather!!!
+        </legend>
+
+
+        <div> <label class="info">First Name:<input type="text" name="fName" pattern="[A-Za-z ]{3,}" title="fname" required></label>
+        </div>
+
+        <div> <label class="info">Last Name:<input type="text" name="lName" pattern="[A-Za-z ]{3,}" required></label>
+        </div>
+        <div> <label class="info">Email:<input type="email" name="email" placeholder="example@gmail.com"></label>
+        </div>
+        <div>
+            <label class="info">Phone Number:<input type="tel" name="tele" pattern="[0-9]{10,10}" required></label>
+        </div>
+        <div>
+            <label class="info">Zip Code:<input type="number" name="zipCode" pattern="[0-9]{5,}" required></label>
+        </div>
+
+
+        <div> <label class="info">Storm Date:<input type="date" name="date"></label>
+        </div>
+        <div>
+            <label class="info">Storm Type:
+                            <input list="browsers" name="stormtype" placeholder="Please Select One...">
+                            <datalist id="browsers">
+                                <option value="Flash Flood">
+                                <option value="Hail">
+                                <option value="Hurricane">
+                                <option value="Thunder storm">
+                                <option value="Tornado">
+                            </datalist>
+                        </label>
+        </div>
+        <div>
+            <label for="rating" class="info">Storm Severity: <span id="ratingvalue">5</span><input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        </label>
+        </div>
+        <label class="info">Storm Region
+                            <select name="stormLocation">
+                                <option value="">Select Region ...</option>
+                                <option value="region">Franklin</option>
+                                <option value="region">Greenville</option>
+                                <option value="region">Springfield</option>
+                            </select>
+
+
+                            <div>
+                                <label>Are conditions dangerous?<br><br>
+                                    <input type="radio" name="inDanger" value="yes" class="radio"> Yes</label>
+
+
+        <span>
+
+            </span>
+
+        <span>
+            <label>
+                                    <input type="radio" name="inDanger" value="no" class="radio"> No</label>
+            </span>
+        <label>
+                                    <input type="radio" name="inDanger" value="maybe" class="radio"> Maybe</label>
+        </div>
+
+
+        <p> Additional Information</p>
+        <label><textarea name="additionalComments" rows="10" cols="35">
+                                </textarea></label>
+
+
+
+
+        <input type="submit" value="Submit" class="subButt">
+
+
+    </form>
+
+
+    <footer>
+        <section class="contact">
+            Contact information placeholder 999.999.9999 123 Main St. Anytown, US 99999 Google Map
+        </section>
+        <section class="footer-bar">&copy;2018 | All Rights Reserved | Binge Watch Weather | <span id="currentdate">Current Date Placeholder</span>
+        </section>
+    </footer>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/range.js"></script>
+</body>
+
+</html>

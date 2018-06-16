@@ -8,7 +8,7 @@
 
 
 
-}
+
 
 
 body,
@@ -150,4 +150,7 @@ figure:hover {
 
 footer {
     text-align: center;
+}
+input {
+    padding-left: 5px;
 }
