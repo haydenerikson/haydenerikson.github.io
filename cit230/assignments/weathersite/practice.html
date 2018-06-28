@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head w3-include-html="head.html">
+
+        <title>The Rainy Day—Franklin</title>
+    </head>
+
+    <body>
+
+        <header w3-include-html="header.html">
+        </header>
+
+
+        <main>
+            <h2>Franklin's Weather</h2>
+            <section class="weather-summary">
+                <div class="current">
+                    Sunny
+                    <picture>
+                        <img src="images/greengrove.jpg" alt="Sunny Day">
+                    </picture>
+                    <h3>Weather Summary</h3>
+                    <div class="highlow">
+                        <p>High: 90&deg;F</p>
+                        <p>Low: 66&deg;F</p>
+                    </div>
+                </div>
+
+                <div class="conditions">
+                    <h3>Current Conditions</h3>
+
+                    <p>Weather conditions for: <span id=city>city</span></p>
+                    <p>Current Temperature: <span id=temperature>00</span>&deg;</p>
+                    <p>Wind Speed: <span id="currentWind">00</span></p>
+                    <img src="images/flowers.jpg" alt="Current Weather" id="weathericon">
+                    <p>Precipitation: 0%</p>
+                    <p>Wind Speed: 5 mph SW</p>
+                    <p>Wind Chill:
+                        <span id ="windchill"></span> &deg;F
+                    </p>
+                </div>
+            </section>
+
+            <section class="forecast">
+                <h3>Ten Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                            <th>Day 6</th>
+                            <th>Day 7</th>
+                            <th>Day 8</th>
+                            <th>Day 9</th>
+                            <th>Day 10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>89&deg;F</td>
+                            <td>87&deg;F</td>
+                            <td>78&deg;F</td>
+                            <td>75&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>83&deg;F</td>
+                            <td>85&deg;F</td>
+                            <td>89&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <article>
+                <h3>Franklin Breaks Record</h3>
+
+
+                <img
+                     srcset="./images/franklin-large.jpg 1200w,
+                             ./images/franklin-medium.jpg 800w,
+                             ./images/franklin-small.jpg 400w" src="images/franklin-large.jpg"
+                     alt="Sunny Day">
+
+
+
+
+
+                <p class="town-article"> Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.
+                </p>
+            </article>
+
+        </main>
+
+        <footer w3-include-html="footer.html"></footer>
+
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/include.js"></script>
+        <script src="scripts/modularize.js"></script>
+        <script src="scripts/wayfinding.js"></script>
+
+
+        <script src="scripts/weather-franklin.js"></script>
+        <script src="scripts/windchill.js"></script>
+
+    </body>
+
+</html>
