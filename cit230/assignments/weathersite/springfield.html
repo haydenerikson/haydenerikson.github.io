@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head  w3-include-html="head.html">
+        <title>Binge Watch Weather|Springfield</title>
+    </head>
+
+    <body>
+
+        <header w3-include-html="header.html">
+
+
+        </header>
+        <main>
+            <h2>Springfield's Weather</h2>
+            <figure>
+                <img src="images/franklin-original.jpg" alt="Picture of Franklin" srcset="images/franklin-original-large.jpg 1200w, images/franklin-original-medium.jpg 800w, images/franklin-original-small.jpg 400w">
+            </figure>
+
+            <section class="weather-summary">
+                <h3>Weather Summary</h3>
+                <div class="highlow">
+                    <p>Current Tempereature: <span id="Current"></span> &deg;F</p><br>
+                    <p>High: <span id="highTemp"></span>&deg;F</p><br>
+                    <p>Low: <span id="lowTemp"></span>&deg;F</p><br>
+                </div>
+                <div class="current">
+                    <picture>
+                    </picture>
+
+                </div>
+                <div class="conditions">
+                    <p>Humidity: <span id="humidity"></span>%</p><br>
+                    <p>Wind Speed: <span id="windSpeed"></span> mph</p><br>
+                    <p id="windchill"></p><br>
+                    <p>Forecast: <span id="forcastDesc"></span></p>
+                </div>
+            </section>
+
+            <section class="forecast">
+                <h3>Ten Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                            <th>Day 6</th>
+                            <th>Day 7</th>
+                            <th>Day 8</th>
+                            <th>Day 9</th>
+                            <th>Day 10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>89&deg;F</td>
+                            <td>87&deg;F</td>
+                            <td>78&deg;F</td>
+                            <td>75&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>83&deg;F</td>
+                            <td>85&deg;F</td>
+                            <td>89&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <article>
+                <h3>Franklin Article</h3>
+                <img src="images/other.jpg" alt="City Picutre">
+                <p class="town-article">Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.</p>
+            </article>
+
+        </main>
+
+        <footer w3-include-html="footer.html">
+
+        </footer>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/include.js"></script>
+        <script src="scripts/modularize.js"></script>
+        <script src="scripts/wayfinding.js"></script>
+
+
+        <script src="scripts/weather-greenville.js"></script>
+        <script src="scripts/windchill.js"></script>
+    </body>
+</html>
