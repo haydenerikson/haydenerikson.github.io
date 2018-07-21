@@ -3,9 +3,33 @@
     body, main, nav{
         max-width: 1000px;
     }
+
+/*style for events page*/
+
+section#info{
+    width: 500px;
 }
+form{
+    width: 500px;
+}
+section#form button{
+    width: 500px;
+    height: 40px;
+}
+/*for sales page*/
+    section.description section{
+        width: 500px;
+    }
+/*    styles for services page*/
+    table{
+        max-width: 800px;
+    }
 
+    td.t1{
+        width: 200px;
+    }
 
-
-
+    td.t2{
+        width: 400px;
+    }
 }

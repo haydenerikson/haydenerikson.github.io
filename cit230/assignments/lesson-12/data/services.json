@@ -1,22 +1,25 @@
 {
-    "Services": [
+    "Services" : [
         {
-            "name": “Drive Train Clean”,
-            "price": 32.00
+            "name": "Drive Train Clean",
+            "price": "$32.00"
+
         },
 
         {
-            "name": “Minor Tune”,
-            "price": 40.00
-        },
+            "name": "Minor Tune",
+            "price": "$40.00"
+                    },
 
         {
-            "name": “Major Tune”,
-            "price": 50.00
+            "name": "Major Tune",
+            "price": "$50.00"
+
         },
         {
-            "name": “Major Overhaul”,
-            "price": 120.00
+            "name": "Major Overhaul",
+            "price": "$120.00"
+
         },
 
 

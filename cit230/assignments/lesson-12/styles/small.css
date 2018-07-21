@@ -1,13 +1,11 @@
-* {
-    box-sizing: border-box;
+* { box-sizing: border-box; margin: 0 auto; }
+
+body{
+    background-color: #565656;
+    color: #d7cec7;
     margin: 0 auto;
 }
 
-body{
-    background-color: black;
-    color: white;
-    margin: 0 auto;
-}
 
 #subheading{
     font-size: .75rem;
@@ -24,37 +22,36 @@ header h1, header #subheading{
     width: 100%;
 }
 
-nav li{
+#topnav li{
     list-style-type: none;
+    display:inline-flex
 }
 
-nav li:hover{
+#topnav li:hover{
     background-color: dimgray;
 }
 
-.hamburger{
-    display: flex;
-    position: absolute;
-    right: 0;
-    color: rgb(100, 0, 0);
-    background: none;
-    margin: 10px 10px 0 10px;
+.hamburger {
+    background-color: transparent;
     border: none;
     text-decoration: none;
-    font-size: 1.5rem;
+
 }
 
-nav{
+#topnav{
     padding : 20px;
-    background-color: dimgray
+    background-color: #c09f80;
 }
 
-nav li a{
+#topnav li a{
     text-decoration: none;
     color: white;
     text-align: left;
-}
 
+}
+button{
+    height: 35px
+}
 .responsive{
     display: none;
 }
@@ -67,3 +64,121 @@ footer{
     margin: 0 auto;
     text-align: center;
 }
+
+/*style for events page*/
+#eventsMain{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+section{
+
+}
+section#info{
+    width: 250px;
+}
+
+form{
+    width: 250px;
+}
+
+section#form button{
+    width: 250px;
+    height: 40px;
+    background-color: #76323F;
+    color: white;
+    font-size: 1rem;
+    border: solid black;
+
+}
+
+section#form button:hover{
+    background-color: #c09f80;
+}
+
+textarea{
+margin-top:  10px;
+}
+
+form div{
+    padding: 5px;
+}
+
+#submit{
+    background-color:  #76323F;
+    color: white;
+    width: 75px;
+    height: 30px;
+    border: solid black;
+}
+
+/*for sales page*/
+
+h1.bike{
+    text-align: center;
+    background-color: #76323F ;
+    border: solid black;
+    }
+
+
+
+section.description section{
+    margin: 0 auto 10px auto;
+    text-align: center;
+    width: 300px;
+}
+
+.bikepic{
+    width: 300px;
+    height: 198px;
+
+}
+
+/*styles for services page*/
+table{
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+td.t1{
+    width:100px;
+    padding: 5px;
+    border: 2px solid rgb(50, 50, 50);
+    text-align:center;
+}
+
+td.t2{
+    width: 100px;
+    padding: 5px;
+    border: 2px solid rgb(50, 50, 50);
+    text-align:center;
+}
+
+td.t3{
+    width: 100px;
+    padding: 5px;
+    border: 2px solid rgb(50, 50, 50);
+    text-align:center;
+}
+
+td.t4{
+    width: 100px;
+    padding: 5px;
+    border: 2px solid rgb(50, 50, 50);
+    text-align:center;
+}
+
+tr.r1{
+    background-color: rgb(100, 0, 0);
+}
+
+tr.r3{
+    background-color: rgb(50, 50, 50);
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
