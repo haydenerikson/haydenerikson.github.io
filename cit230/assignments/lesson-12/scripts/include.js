@@ -22,4 +22,3 @@ w3.includeHTML = function(cb) {
         }
     }
     if (cb) cb();
-};

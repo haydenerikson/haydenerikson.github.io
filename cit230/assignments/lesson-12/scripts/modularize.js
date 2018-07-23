@@ -1,9 +1,14 @@
-w3.includeHTML(function()
-               {
-    // call function to get date
-    setCurrentDate();
+w3.includeHTML(
 
-    // call function to set active link
-    setActiveLink();
+    function()
+    {
+        // call function to get date
+        setCurrentDate();
 
-});
+        // call function to set active link
+        setActiveLink();
+
+        //  services();
+
+    }
+);
