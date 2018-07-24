@@ -81,10 +81,31 @@
         width: 600px;
         height: 600px;
     }
-    .homelinks {
+
+    .adventures {
+        display: inline;
+
+    }
+
+
+
+    .link {
         display: flex;
         padding-bottom: 7%;
         align-items: stretch;
+    }
+
+    .link h2{
+        padding-left: 4%;
+    }
+    li a:hover {
+        text-decoration: underline #76323f;
+    }
+
+
+    nav ul li.active a {
+
+        text-decoration: underline white;
     }
 }
 
