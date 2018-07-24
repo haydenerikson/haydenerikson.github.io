@@ -21,6 +21,10 @@ header h1, header #subheading{
     text-align: center;
     width: 100%;
 }
+img {
+    width: 250px;
+    height: auto;
+}
 
 #navigation li {
     display: none;
