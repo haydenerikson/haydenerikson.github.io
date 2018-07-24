@@ -1,4 +1,5 @@
-function myNav() {
-    document.getElementsById("navigation")[0].classList.toggle("responsive");
-
-}
+$(document).ready(function () {
+    $('img').on('click', function () {
+        alert('you have clicked');
+    });
+});
