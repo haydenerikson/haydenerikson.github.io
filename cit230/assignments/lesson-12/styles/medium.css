@@ -81,6 +81,11 @@
         width: 600px;
         height: 600px;
     }
+    .homelinks {
+        display: flex;
+        padding-bottom: 7%;
+        align-items: stretch;
+    }
 }
 
 

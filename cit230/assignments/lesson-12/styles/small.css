@@ -186,3 +186,11 @@ iframe{
     width: 100px;
 }
 /*styles for adventure page*/
+.homelinks {
+    display: none;
+
+}
+.indexImage {
+ width: 250px;
+    height: auto;
+}

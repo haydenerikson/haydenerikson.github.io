@@ -3,7 +3,7 @@
 
 
 
-var requestURL = 'data/service.json';
+var requestURL = '/service.json';
 var request = new XMLHttpRequest();
 
 request.open('GET', requestURL);

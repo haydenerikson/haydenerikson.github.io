@@ -1,0 +1,42 @@
+{
+    "services": [
+        {
+            "name": "Break Adjustment",
+            "price": 10.00
+        },
+        {
+            "name": "Cable Replacement",
+            "price": 15.00
+        },
+        {
+            "name": "Wheel Building",
+            "price": 45.00
+        },
+        {
+            "name": "Shock Service",
+            "price": 35.00
+        },
+        {
+            "name": "Chain Replacement",
+            "price": 15.00
+        },
+        {
+            "name": "Drive Train Clean",
+            "price": 32.00
+        },
+        {
+            "name": "Minor Tune",
+            "price": 40.00
+
+        },
+        {
+            "name": "Major Tune",
+            "price": 50.00
+        },
+        {
+            "name": "Major Overhall",
+            "price": 120.00
+        }
+
+    ]
+}
