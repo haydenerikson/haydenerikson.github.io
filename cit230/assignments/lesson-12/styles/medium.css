@@ -8,24 +8,28 @@
         display: none;
     }
 
-    #topnav{
+    #navigation{
         width: 800px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         background-color: black;
     }
 
-    #topnav li{
+    #navigation li{
         height: 20px;
         width: 120px;
         text-align: center;
     }
 
-    #topnav li a{
+    #navigation li a{
         text-decoration: none;
         color: white;
         height: 20px;
     }
+    .responsive {
+        display: block;
+    }
+
     /*style for events page*/
     section#info{
         width: 400px;
@@ -57,7 +61,18 @@
         width: 300px;
     }
 
+    .adventures {
+        display: inline;
 
+    }
+    .allAdventures {
+        background: #76323F;
+        min-height: 100vh;
+        overflow: hidden;
+        display: block;
+        position: relative;
+        padding-bottom: 160px;
+    }
 }
 
 
