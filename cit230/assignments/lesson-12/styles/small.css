@@ -194,3 +194,6 @@ iframe{
  width: 250px;
     height: auto;
 }
+* {
+    font-family: 'Crimson Text', serif;
+}
