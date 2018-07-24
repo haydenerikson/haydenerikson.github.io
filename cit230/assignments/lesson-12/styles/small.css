@@ -119,7 +119,7 @@ form{
 section#form button{
     width: 250px;
     height: 40px;
-    background-color: #76323F;
+    background-color: #c09f80;
     color: white;
     font-size: 1rem;
     border: solid black;
@@ -139,7 +139,7 @@ form div{
 }
 
 #submit{
-    background-color:  #76323F;
+    background-color:  #c09f80;
     color: white;
     width: 75px;
     height: 30px;
@@ -150,7 +150,7 @@ form div{
 
 h1.bike{
     text-align: center;
-    background-color: #76323F ;
+    background-color: #c09f80 ;
     border: solid black;
     }
 
@@ -174,47 +174,7 @@ table{
     margin: 50px auto;
 }
 
-td.t1{
-    width:100px;
-    padding: 5px;
-    border: 2px solid rgb(50, 50, 50);
-    text-align:center;
-}
 
-td.t2{
-    width: 100px;
-    padding: 5px;
-    border: 2px solid rgb(50, 50, 50);
-    text-align:center;
-}
-
-td.t3{
-    width: 100px;
-    padding: 5px;
-    border: 2px solid rgb(50, 50, 50);
-    text-align:center;
-}
-
-td.t4{
-    width: 100px;
-    padding: 5px;
-    border: 2px solid rgb(50, 50, 50);
-    text-align:center;
-}
-
-tr.r1{
-    background-color: rgb(100, 0, 0);
-}
-
-tr.r3{
-    background-color: rgb(50, 50, 50);
-}
-
-hr{
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
-}
 /*styles for contact page*/
 iframe{
     display: flex;
