@@ -198,11 +198,12 @@ iframe{
     font-family: 'Crimson Text', serif;
 }
 li a:hover {
-    text-decoration: underline #76323f;
+    background-color:  #76323f;
 }
 
 
 nav ul li.active a {
 
-    text-decoration: underline white;
+    background-color: #d7cec7;
 }
+
