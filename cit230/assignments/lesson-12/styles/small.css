@@ -67,7 +67,10 @@ li {
 
 
 }
-
+.logo {
+    height: 50px;
+    width: auto;
+}
 li a {
 
     display: block;
