@@ -32,18 +32,7 @@ img {
 }
 
 
-#navigation.responsive li {
-    display: block;
-    color: white;
-    background-color: black;
 
-
-}
-
-#navigation.responsive {
-    position: relative;
-
-}
 li a {
     color: white;
 }
@@ -54,12 +43,8 @@ nav {
 
 }
 
-.hamburger {
-    display: none;
-}
 
-nav ul {
-    display: block;
+
 
 
 }
@@ -135,7 +120,7 @@ section#form button:hover{
 }
 
 textarea{
-margin-top:  10px;
+    margin-top:  10px;
 }
 
 form div{
@@ -156,7 +141,7 @@ h1.bike{
     text-align: center;
     background-color: #c09f80 ;
     border: solid black;
-    }
+}
 
 
 
@@ -191,7 +176,7 @@ iframe{
 
 }
 .indexImage {
- width: 250px;
+    width: 250px;
     height: auto;
 }
 * {
@@ -206,4 +191,3 @@ nav ul li.active a {
 
     background-color: #d7cec7;
 }
-

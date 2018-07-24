@@ -26,9 +26,6 @@
         color: white;
         height: 20px;
     }
-    .responsive {
-        display: block;
-    }
 
     /*style for events page*/
     section#info{
@@ -43,7 +40,7 @@
         width: 400px;
         height: 40px;
     }
-/*    for sales page*/
+    /*    for sales page*/
     section.description section ul, section.description section p{
         text-align: left;
     }
@@ -51,7 +48,7 @@
     section.description section{
         width: 400px;
     }
-/*styles for services page*/
+    /*styles for services page*/
 
     table{
         max-width: 600px;
@@ -89,7 +86,7 @@
 
     .adventures {
         display: inline;
-text-align: center;
+        text-align: center;
 
 
     }
@@ -111,19 +108,23 @@ text-align: center;
         padding-left: 4%;
     }
     li a:hover {
-        text-decoration: underline #76323f;
+        background-color:  #76323f;
     }
 
 
-    nav ul li.active a {
 
-        text-decoration: underline white;
-    }
     .right {
         text-align: right;
         padding-right: 2%;
     }
 
+    .hamburger {
+        display: none;
+    }
+    #navigation li {
+        display: contents;
+
+    }
 }
 
 
