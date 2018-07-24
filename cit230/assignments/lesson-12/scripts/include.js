@@ -1,5 +1,5 @@
 /* W3.JS 1.02 May 2017 by w3schools.com */
-"use strict";
+
 var w3 = {};
 w3.includeHTML = function(cb) {
     var z, i, elmnt, file, xhttp;
@@ -21,4 +21,4 @@ w3.includeHTML = function(cb) {
             return;
         }
     }
-    if (cb) cb();
+};
